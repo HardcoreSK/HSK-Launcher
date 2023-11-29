@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Localization Name="English" Culture="en-US">
-	<String Key="PortalButton" Value="PORTAL" />
+	<String Key="DiscordButton" Value="DISCORD" />
 	<String Key="GitHubButton" Value="GITHUB" />
 	<String Key="DonateButton" Value="DONATE" />
 
@@ -18,10 +18,10 @@
 	<String Key="NotAvailable" Value="N/A" />
 
 	<String Key="OptionsWindow" Value="Options" />
-	<String Key="InstallationOptions" Value="HSK Installation options:" />
+	<String Key="InstallationOptions" Value="HSK options:" />
 	<String Key="RimWorldExecutableLocation" Value="RimWorld executable location:" />
-	<String Key="UpdateModsConfig" Value="Update ModsConfig.xml" />
-	<String Key="LauncherOptions" Value="HSK Launcher options:" />
+	<String Key="OverwriteModsConfig" Value="Overwrite ModsConfig.xml" />
+	<String Key="LauncherOptions" Value="Launcher options:" />
 	<String Key="CheckRimWorldVersion" Value="Check RimWorld version" />
 	<String Key="LaunchGameViaSteam" Value="Launch game via Steam" />
 	<String Key="CloseLauncherAfterGameStartup" Value="Close launcher after game startup" />
@@ -33,7 +33,7 @@
 	<String Key="DoneButton" Value="Done" />
 
 	<String Key="PostInstallActionsWindow" Value="Post-install actions" />
-	<String Key="ModNameWarning" Value="Names of the mods you can get from existing &quot;ModsConfig.xml&quot; or use mods directories names which located in the &quot;Mods&quot; directory.\n\nModsConfig.xml will be updated automatically only during installing updates." />
+	<String Key="ModNameWarning" Value="Name of the mod you can get or from existing &quot;ModsConfig.xml&quot; file or from mod &quot;About.xml&quot; file which located in the mod &quot;About&quot; directory. Force included mods will also be spared while cleaning &quot;Mods&quot; folder during HSK update." />
 	<String Key="ForceIncludeMods" Value="Force include mods:" />
 	<String Key="ForceExcludeMods" Value="Force exclude mods:" />
 	<String Key="OneModNamePerLine" Value="One mod name per line" />

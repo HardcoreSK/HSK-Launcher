@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Localization Name="Czech" Culture="cs-CZ">
+	<String Key="PortalButton" Value="PORTÁL" />
+	<String Key="GitHubButton" Value="GITHUB" />
+	<String Key="DonateButton" Value="PODPOŘIT" />
+
+	<String Key="WelcomeLabel" Value="Vítej ve spouštěči módu HSK!" />
+	<String Key="WelcomeLabel2" Value="Než začneme prosím vyber jazyk a místo instalace hry RimWorld" />
+	<String Key="SelectButton" Value="Vybrat" />
+
+	<String Key="PlayButton" Value="HRÁT" />
+	<String Key="OptionsButton" Value="Nastavení" />
+	<String Key="CheckUpdatesButton" Value="Kontrola Aktualizací" />
+	<String Key="InstallUpdatesButton" Value="Instalovat Aktualizace" />
+	<String Key="OpenLogButton" Value="Otevřít log" />
+
+	<String Key="Version" Value="Verze" />
+	<String Key="NotAvailable" Value="N/A" />
+
+	<String Key="OptionsWindow" Value="Nastavení" />
+	<String Key="InstallationOptions" Value="Možnosti instalace módu HSK:" />
+	<String Key="RimWorldExecutableLocation" Value="Umístění hry RimWorld:" />
+	<String Key="UpdateModsConfig" Value="Aktualizovat ModsConfig.xml" />
+	<String Key="LauncherOptions" Value="Možnosti spouštěče módu HSK:" />
+	<String Key="CheckRimWorldVersion" Value="Zkontrolovat verzi hry RimWorld" />
+	<String Key="LaunchGameViaSteam" Value="Spustit hru pomocí služby Steam" />
+	<String Key="CloseLauncherAfterGameStartup" Value="Zavřít spouštěč po spuštění hry" />
+	<String Key="CheckUpdatesOnStartup" Value="Kontrolovat dostupnost aktualizací módu HSK po spuštění" />
+	<String Key="CheckLauncherUpdatesOnStartup" Value="Kontrolovat dostupnost aktualizací spouštěče po spuštění" />
+	<String Key="OptionsWarning" Value="Mód HSK nemusí fungovat nebo může vykazovat mnoho chyb" />
+	<String Key="ClearLatestVersionInfo" Value="Vymazat informace poslední verze" />
+	<String Key="DeleteModsConfigs" Value="Vymazat konfigurace módů" />
+	<String Key="DoneButton" Value="Hotovo" />
+
+	<String Key="PostInstallActionsWindow" Value="Akce po instalaci" />
+	<String Key="ModNameWarning" Value="Názvy módů, které lze nalézt v &quot;ModsConfig.xml&quot; nebo použijte názvy složek módu obsažených v &quot;Mods&quot; složce.\n\nModsConfig.xml bude aktulazivoáno automaticky pouze v případě instalace aktualizace." />
+	<String Key="ForceIncludeMods" Value="Vynutit obsažení módů:" />
+	<String Key="ForceExcludeMods" Value="Vynutit vynechání módů:" />
+	<String Key="OneModNamePerLine" Value="Jeden název módu na řádek" />
+	<String Key="OpenModsDirectory" Value="Otevřít složku s módy" />
+	<String Key="PostInstallExecute" Value="Spuštění po instalaci:" />
+	<String Key="PostInstallApplication" Value="Aplikace:" />
+	<String Key="PostInstallApplicationArguments" Value="Argumenty:" />
+
+	<String Key="CheckingForUpdatesMessage" Value="Kontroluji dostupnost aktualizací..." />
+	<String Key="NewVersionAvailableMessage" Value="Dostupná nová verze: {0}" />
+	<String Key="YouHaveLatestVersionMessage" Value="Vaše verze je aktuální" />
+	<String Key="PreparingToDownloadMessage" Value="Příprava stažení..." />
+	<String Key="UpdatesInstalledMessage" Value="Aktualizace úspěšná" />
+	<String Key="CheckForUpdatesFailedMessage" Value="Zkontrolujte zprávu chyby aktualizace" />
+	<String Key="UpdateFailedMessage" Value="Aktualizace neúspěšná" />
+	<String Key="StartingRimWorldMessage" Value="Spouštím RimWorld..." />
+	<String Key="CouldNotStartRimWorldMessage" Value="Nepodařilo se spustit RimWorld" />
+	<String Key="RimWorldIsRunningMessage" Value="RimWorld je již spuštěn.\n\nPro provední aktualizace musí být aplikace vypnutá." />
+	<String Key="RimWorldIsNotSuitableMessage" Value="Verze módu HSK ({0}) není vhodná pro verzy hry RimWorld ({1})" />
+
+	<String Key="DownloadingHardCoreSKBytesMessage" Value="Stahuji Hardcore SK... ({0})" />
+	<String Key="DownloadingHardCoreSKPercentsMessage" Value="Stahuji Hardcore SK... ({0}%)" />
+	<String Key="InstallingHardCoreSKMessage" Value="Instaluji Hardcore SK... ({0}%)" />
+
+	<String Key="DetectedAlreadyDownloadedVersionMessage" Value="Detekována stažená verze módu HSK. Přejete si ji nainstalovat nebo stáhnout znovu a nainstalovat?\n\nAno – instalovat staženou verzi.\nNe – stáhnou verzi znovu a nainstalovat."/>
+	<String Key="ModsConfigsDeletedMessage" Value="Konfigurace módu byla vymazána." />
+
+</Localization>

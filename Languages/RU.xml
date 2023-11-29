@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Localization Name="Russian" Culture="ru-RU">
-	<String Key="PortalButton" Value="Портал" />
+	<String Key="DiscordButton" Value="Discord" />
 	<String Key="GitHubButton" Value="GitHub" />
-	<String Key="DonateButton" Value="Помощь проекту" />
+	<String Key="DonateButton" Value="Поддержать" />
 
 	<String Key="WelcomeLabel" Value="Добро пожаловать в HSK Launcher!" />
 	<String Key="WelcomeLabel2" Value="Для продолжения выберите язык и путь установки RimWorld." />
@@ -18,9 +18,9 @@
 	<String Key="NotAvailable" Value="Н/Д" />
 
 	<String Key="OptionsWindow" Value="Опции" />
-	<String Key="InstallationOptions" Value="Инсталяции HSK:" />
+	<String Key="InstallationOptions" Value="Опции HSK:" />
 	<String Key="RimWorldExecutableLocation" Value="Исполняемый файл RimWorld:" />
-	<String Key="UpdateModsConfig" Value="Обновлять ModsConfig.xml" />
+	<String Key="OverwriteModsConfig" Value="Перезаписывать ModsConfig.xml" />
 	<String Key="LauncherOptions" Value="Опции лаунчера:" />
 	<String Key="CheckRimWorldVersion" Value="Проверять версию RimWorld" />
 	<String Key="LaunchGameViaSteam" Value="Запускать игру через Steam"/>
@@ -33,7 +33,7 @@
 	<String Key="DoneButton" Value="Готово" />
 
 	<String Key="PostInstallActionsWindow" Value="Действия после установки" />
-	<String Key="ModNameWarning" Value="Имена модов вы можете получить либо из существующего &quot;ModsConfig.xml&quot; файла или использовать имена папок модов, которые располагается в папке &quot;Mods&quot;.\n\nModsConfig.xml будет изменяться автоматически только во время установки обновлений." />
+	<String Key="ModNameWarning" Value="Имена модов вы можете получить либо из существующего &quot;ModsConfig.xml&quot; файла или из файла &quot;About.xml&quot; находящегося в папке &quot;About&quot; внутри папки с модом. Принудительно включенные моды будут сохранены при очистке папки &quot;Mods&quot; во время обновления." />
 	<String Key="ForceIncludeMods" Value="Принудительно включать моды:" />
 	<String Key="ForceExcludeMods" Value="Принудительно отключать моды:" />
 	<String Key="OneModNamePerLine" Value="Одно имя мода на одну строку" />
