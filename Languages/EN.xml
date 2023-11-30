@@ -57,7 +57,8 @@
 	<String Key="CouldNotStartRimWorldMessage" Value="Could not start RimWorld" />
 	<String Key="RimWorldIsRunningMessage" Value="RimWorld is running.\n\nIt should be closed before installing updates." />
 	<String Key="RimWorldIsNotSuitableMessage" Value="HSK ({0}) is not suitable for your RimWorld ({1})" />
-	<String Key="UseProxyMessage" Value="Please only enable proxy when you have troubles connecting to Github and launcher fails to fetch new updates." />
+	<String Key="UseProxyMessage" Value="Please only enable proxy when you have troubles connecting to Github and launcher fails to fetch new updates.\n\Restart the launcher to apply." />
+	<String Key="ModsConfigMissingMessage" Value="ModsConfig.xml not found, launcher may work incorrectly.\n\nLaunch Rimworld once to generate it and provide a correct location in the launcher options.\n\nContinue?" />
 
 	<String Key="DownloadingHardCoreSKBytesMessage" Value="Downloading Hardcore SK... ({0})" />
 	<String Key="DownloadingHardCoreSKPercentsMessage" Value="Downloading Hardcore SK... ({0}%)" />
