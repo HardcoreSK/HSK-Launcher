@@ -13,17 +13,21 @@
 	<String Key="CheckUpdatesButton" Value="Обновления" />
 	<String Key="InstallUpdatesButton" Value="Установить" />
 	<String Key="OpenLogButton" Value="Открыть лог" />
+  <String Key="ManualInstallUpdateButton" Value="Из .zip" />
 
 	<String Key="Version" Value="Версия" />
 	<String Key="NotAvailable" Value="Н/Д" />
 
 	<String Key="OptionsWindow" Value="Опции" />
 	<String Key="InstallationOptions" Value="Опции HSK:" />
-	<String Key="RimWorldExecutableLocation" Value="Исполняемый файл RimWorld:" />
+	<String Key="RimWorldExecutablePath" Value="Исполняемый файл RimWorld:" />
+  <String Key="RimWorldModsConfigPath" Value="Файл ModsConfig.xml:" />
+  <String Key="StorageDirectoryPath" Value="Хранилище данных лаунчера (минимум 1GB):" />
 	<String Key="OverwriteModsConfig" Value="Перезаписывать ModsConfig.xml" />
 	<String Key="LauncherOptions" Value="Опции лаунчера:" />
 	<String Key="CheckRimWorldVersion" Value="Проверять версию RimWorld" />
 	<String Key="LaunchGameViaSteam" Value="Запускать игру через Steam"/>
+  <String Key="UseProxy" Value="Использовать прокси (если у вас есть проблемы с подключением к GitHub)" />
 	<String Key="CloseLauncherAfterGameStartup" Value="Закрывать лаунчер после запуска игры" />
 	<String Key="CheckUpdatesOnStartup" Value="Проверять обновления HSK при запуске" />
 	<String Key="CheckLauncherUpdatesOnStartup" Value="Проверять обновления лаунчера при запуске" />
@@ -47,12 +51,13 @@
 	<String Key="YouHaveLatestVersionMessage" Value="У вас последняя версия" />
 	<String Key="PreparingToDownloadMessage" Value="Подготовка к скачиванию..." />
 	<String Key="UpdatesInstalledMessage" Value="Обновления установлены" />
-	<String Key="CheckForUpdatesFailedMessage" Value="Не удалось проверить обновления" />
+	<String Key="CheckForUpdatesFailedMessage" Value="Не удалось проверить обновления,\nпопробуйте включить прокси в настройках" />
 	<String Key="UpdateFailedMessage" Value="Обновление не удалось" />
 	<String Key="StartingRimWorldMessage" Value="RimWorld запускается..." />
 	<String Key="CouldNotStartRimWorldMessage" Value="Не удалось запустить RimWorld" />
 	<String Key="RimWorldIsRunningMessage" Value="RimWorld запущен.\n\nЗакройте игру перед тем как устанавливать обновления." />
 	<String Key="RimWorldIsNotSuitableMessage" Value="HSK ({0}) не подходит для вашей установки RimWorld ({1})" />
+  <String Key="UseProxyMessage" Value="Пожалуйста, используйте прокси только если у вас есть проблемы с подключением к GitHub и лаунчер не может установить соединение." />
 
 	<String Key="DownloadingHardCoreSKBytesMessage" Value="Загрузка Hardcore SK... ({0})" />
 	<String Key="DownloadingHardCoreSKPercentsMessage" Value="Загрузка Hardcore SK... ({0}%)" />
