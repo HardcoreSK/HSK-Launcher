@@ -59,8 +59,9 @@
 	<String Key="RimWorldIsNotSuitableMessage" Value="HSK ({0}) не подходит для вашей установки RimWorld ({1})" />
   <String Key="UseProxyMessage" Value="Пожалуйста, используйте прокси только если у вас есть проблемы с подключением к GitHub и лаунчер не может установить соединение.\n\nПерезапустите лаучер чтобы применить изменения." />
   <String Key="ModsConfigMissingMessage" Value="ModsConfig.xml не найден, лаунчер может работать некорректно.\n\nЗапустите Rimworld чтобы сгенерировать необходимые файлы и укажите правильный путь в опциях лаунчера.\n\nПродолжить?" />
+  <String Key="ModsCleanupWarningMessage" Value="Во время установки все моды в папке &quot;Mods&quot; будут удалены если их нет в списке исключений. Список исключений можно изменить в настройках лаунчера.\n\nПродолжить установку?" />
 
-	<String Key="DownloadingHardCoreSKBytesMessage" Value="Загрузка Hardcore SK... ({0})" />
+  <String Key="DownloadingHardCoreSKBytesMessage" Value="Загрузка Hardcore SK... ({0})" />
 	<String Key="DownloadingHardCoreSKPercentsMessage" Value="Загрузка Hardcore SK... ({0}%)" />
 	<String Key="InstallingHardCoreSKMessage" Value="Установка Hardcore SK... ({0}%)" />
 
