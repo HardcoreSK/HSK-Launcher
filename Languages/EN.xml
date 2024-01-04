@@ -36,8 +36,8 @@
 	<String Key="ResetModsConfigs" Value="Reset mods configs" />
 	<String Key="DoneButton" Value="Done" />
 
-	<String Key="PostInstallActionsWindow" Value="Post-install actions" />
-	<String Key="ModNameWarning" Value="Name of the mod you can get or from existing &quot;ModsConfig.xml&quot; file or from mod &quot;About.xml&quot; file which located in the mod &quot;About&quot; directory. Force included mods will also be spared while cleaning &quot;Mods&quot; folder during HSK update." />
+	<String Key="PostInstallActionsWindow" Value="Modsconfig actions" />
+	<String Key="ModNameWarning" Value="packageId of the mod you can get or from existing &quot;ModsConfig.xml&quot; file or from mod &quot;About.xml&quot; file which located in the mod &quot;About&quot; directory. Force included mods will also be spared while cleaning &quot;Mods&quot; folder during HSK update." />
 	<String Key="ForceIncludeMods" Value="Force include mods:" />
 	<String Key="ForceExcludeMods" Value="Force exclude mods:" />
 	<String Key="OneModNamePerLine" Value="One mod name per line" />
@@ -67,5 +67,6 @@
 
 	<String Key="DetectedAlreadyDownloadedVersionMessage" Value="Detected downloaded HSK version. Would you like to install it or redownload version and then install?\n\nYes – install downloaded version.\nNo – download then install."/>
 	<String Key="ModsConfigsResetMessage" Value="Mods configuration has been reset." />
+	<String Key="LauncherUpdateAvailableMessage" Value="Launcher update available. Download?" />
 
 </Localization>

@@ -36,8 +36,8 @@
 	<String Key="ResetModsConfigs" Value="Сбросить настройки модов" />
 	<String Key="DoneButton" Value="Готово" />
 
-	<String Key="PostInstallActionsWindow" Value="Действия после установки" />
-	<String Key="ModNameWarning" Value="Имена модов вы можете получить либо из существующего &quot;ModsConfig.xml&quot; файла или из файла &quot;About.xml&quot; находящегося в папке &quot;About&quot; внутри папки с модом. Принудительно включенные моды будут сохранены при очистке папки &quot;Mods&quot; во время обновления." />
+	<String Key="PostInstallActionsWindow" Value="Действия с modsconfig" />
+	<String Key="ModNameWarning" Value="packageId модов вы можете получить либо из существующего &quot;ModsConfig.xml&quot; файла или из файла &quot;About.xml&quot; находящегося в папке &quot;About&quot; внутри папки с модом. Принудительно включенные моды будут сохранены при очистке папки &quot;Mods&quot; во время обновления." />
 	<String Key="ForceIncludeMods" Value="Принудительно включать моды:" />
 	<String Key="ForceExcludeMods" Value="Принудительно отключать моды:" />
 	<String Key="OneModNamePerLine" Value="Одно имя мода на одну строку" />
@@ -67,5 +67,6 @@
 
 	<String Key="DetectedAlreadyDownloadedVersionMessage" Value="Обнаружена уже скачанная версия. Вы хотите установить её или перекачать, а затем установить?\n\nДа – установить уже скачанную версию.\nНет – скачать и установить."/>
 	<String Key="ModsConfigsResetMessage" Value="Настройки модов сброшены." />
+  <String Key="LauncherUpdateAvailableMessage" Value="Доступно обновление лаунчера. Обновить?" />
 
 </Localization>
