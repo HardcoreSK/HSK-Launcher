@@ -34,6 +34,7 @@
 	<String Key="OptionsWarning" Value="HSK может работать неверно!" />
 	<String Key="ClearLatestVersionInfo" Value="Забыть установленную версию" />
 	<String Key="ResetModsConfigs" Value="Сбросить настройки модов" />
+  <String Key="ShowAllBranches" Value="Показать все" />
 	<String Key="DoneButton" Value="Готово" />
 
 	<String Key="PostInstallActionsWindow" Value="Действия с modsconfig" />

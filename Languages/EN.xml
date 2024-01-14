@@ -27,13 +27,14 @@
 	<String Key="LauncherOptions" Value="Launcher options:" />
 	<String Key="CheckRimWorldVersion" Value="Check RimWorld version" />
 	<String Key="LaunchGameViaSteam" Value="Launch game via Steam" />
-  <String Key="UseProxy" Value="Use proxy (if you have troubles accessing github)" />
+  <String Key="UseProxy" Value="Use proxy (if you have troubles accessing GitHub)" />
 	<String Key="CloseLauncherAfterGameStartup" Value="Close launcher after game startup" />
 	<String Key="CheckUpdatesOnStartup" Value="Check for HSK updates on startup" />
 	<String Key="CheckLauncherUpdatesOnStartup" Value="Check for launcher updates on startup" />
 	<String Key="OptionsWarning" Value="HSK may not work or work unstable!" />
 	<String Key="ClearLatestVersionInfo" Value="Clear latest version info" />
 	<String Key="ResetModsConfigs" Value="Reset mods configs" />
+	<String Key="ShowAllBranches" Value="Show all" />
 	<String Key="DoneButton" Value="Done" />
 
 	<String Key="PostInstallActionsWindow" Value="Modsconfig actions" />
