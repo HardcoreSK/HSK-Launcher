@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization Name="简体中文" Culture="zh-CN">
+	<String Key="DiscordButton" Value="DISCORD" />
+	<String Key="GitHubButton" Value="GITHUB" />
+	<String Key="DonateButton" Value="DONATE" />
+
+	<String Key="WelcomeLabel" Value="欢迎使用HSK启动器" />
+	<String Key="WelcomeLabel2" Value="在启动前，请设定语言及RimWorld程序的位置" />
+	<String Key="SelectButton" Value="选择" />
+
+	<String Key="PlayButton" Value="启动" />
+	<String Key="OptionsButton" Value="选项" />
+	<String Key="CheckUpdatesButton" Value="检查更新" />
+	<String Key="InstallUpdatesButton" Value="安装更新" />
+	<String Key="OpenLogButton" Value="查看日志" />
+	<String Key="ManualInstallUpdateButton" Value="从.zip文件安装" />
+
+	<String Key="Version" Value="版本" />
+	<String Key="NotAvailable" Value="不可用" />
+
+	<String Key="OptionsWindow" Value="选项窗口" />
+	<String Key="InstallationOptions" Value="HSK 选项" />
+	<String Key="RimWorldExecutablePath" Value="RimWorld 程序路径" />
+	<String Key="RimWorldModsConfigPath" Value="RimWorld ModsConfig.xml路径" />
+	<String Key="StorageDirectoryPath" Value="启动器缓存路径（需要至少1GB的空间）" />
+	<String Key="OverwriteModsConfig" Value="覆盖ModsConfig.xml" />
+	<String Key="LauncherOptions" Value="启动器选项" />
+	<String Key="CheckRimWorldVersion" Value="检查RimWorld版本" />
+	<String Key="LaunchGameViaSteam" Value="从steam启动" />
+  <String Key="UseProxy" Value="使用代理（如果你很难连上github）" />
+	<String Key="CloseLauncherAfterGameStartup" Value="启动游戏后关闭启动器" />
+	<String Key="CheckUpdatesOnStartup" Value="启动时检查HSK更新" />
+	<String Key="CheckLauncherUpdatesOnStartup" Value="启动时检查启动器更新" />
+	<String Key="OptionsWarning" Value="HSK可能无法正常启动，或者不稳定！" />
+	<String Key="ClearLatestVersionInfo" Value="清除版本缓存" />
+	<String Key="ResetModsConfigs" Value="重置mod列表" />
+	<String Key="ShowAllBranches" Value="显示所有分支" />
+	<String Key="DoneButton" Value="完成" />
+
+	<String Key="PostInstallActionsWindow" Value="ModsConfig设置" />
+	<String Key="ModNameWarning" Value="在下方填写packageId。你可以从ModsConfig.xml、mod的About/About.xml里查到各个mod的packageId。更新HSK时，被强制包含的mod不会被删除" />
+	<String Key="ForceIncludeMods" Value="强制包含以下mod：" />
+	<String Key="ForceExcludeMods" Value="强制移除以下mod：" />
+	<String Key="OneModNamePerLine" Value="每行一个" />
+	<String Key="OpenModsDirectory" Value="打开本地mod目录" />
+	<String Key="PostInstallExecute" Value="安装后执行程序" />
+	<String Key="PostInstallApplication" Value="程序路径：" />
+	<String Key="PostInstallApplicationArguments" Value="命令参数：" />
+
+	<String Key="CheckingForUpdatesMessage" Value="正在检查更新……" />
+	<String Key="NewVersionAvailableMessage" Value="新版本可用：{0}" />
+	<String Key="YouHaveLatestVersionMessage" Value="你已经处在最新版本" />
+	<String Key="PreparingToDownloadMessage" Value="准备下载……" />
+	<String Key="UpdatesInstalledMessage" Value="更新完毕" />
+	<String Key="CheckForUpdatesFailedMessage" Value="检查更新失败。或许可以试着打开选项中的‘使用代理’" />
+	<String Key="UpdateFailedMessage" Value="更新失败" />
+	<String Key="StartingRimWorldMessage" Value="正在启动RimWorld……" />
+	<String Key="CouldNotStartRimWorldMessage" Value="RimWorld启动失败" />
+	<String Key="RimWorldIsRunningMessage" Value="RimWorld正在运行。更新前请关闭RimWorld" />
+	<String Key="RimWorldIsNotSuitableMessage" Value="当前版本({0})的HSK不适用于你的RimWorld({1})" />
+	<String Key="UseProxyMessage" Value="请仅在启动器无法连接到github，无法检查更新时启用本选项。启用后需要重启启动器" />
+	<String Key="ModsConfigMissingMessage" Value="未检测到ModsConfig.xml，启动器可能不会按照预期的流程工作。请启动RimWorld至少一次以生成必要文件，并在选项中提供正确的路径。是否继续？" />
+	<String Key="ModsCleanupWarningMessage" Value="安装过程中，Mods下所有不在白名单内的文件夹都将被删除。白名单可以在启动器的选项菜单中编辑。是否继续安装？" />
+
+	<String Key="DownloadingHardCoreSKBytesMessage" Value="正在下载Hardcore SK……({0})" />
+	<String Key="DownloadingHardCoreSKPercentsMessage" Value="正在下载Hardcore SK……({0}%)" />
+	<String Key="InstallingHardCoreSKMessage" Value="正在安装Hardcore SK……({0}%)" />
+
+	<String Key="DetectedAlreadyDownloadedVersionMessage" Value="检测到已安装的HSK。使用现有的版本还是重新下载？\n\n是-安装现有版本；否-重新下载并安装"/>
+	<String Key="ModsConfigsResetMessage" Value="Mod列表已重置。" />
+	<String Key="LauncherUpdateAvailableMessage" Value="启动器有更新可用。是否下载更新？" />
+
+</Localization>
