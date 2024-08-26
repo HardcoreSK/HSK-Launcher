@@ -1,73 +1,95 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Localization Name="Russian" Culture="ru-RU">
-	<String Key="DiscordButton" Value="Discord" />
-	<String Key="GitHubButton" Value="GitHub" />
-	<String Key="DonateButton" Value="Поддержать" />
+    <String Key="DiscordButton" Value="Discord" />
+    <String Key="GitHubButton" Value="GitHub" />
+    <String Key="DonateButton" Value="Поддержать" />
 
-	<String Key="WelcomeLabel" Value="Добро пожаловать в HSK Launcher!" />
-	<String Key="WelcomeLabel2" Value="Для продолжения выберите язык и путь установки RimWorld." />
-	<String Key="SelectButton" Value="Выбрать" />
+    <String Key="WelcomeLabel" Value="Добро пожаловать в HSK Launcher!" />
+    <String Key="WelcomeLabel2" Value="Для продолжения выберите язык и путь установки RimWorld." />
+    <String Key="SelectButton" Value="Выбрать" />
 
-	<String Key="PlayButton" Value="Играть" />
-	<String Key="OptionsButton" Value="Опции" />
-	<String Key="CheckUpdatesButton" Value="Обновления" />
-	<String Key="InstallUpdatesButton" Value="Установить" />
-	<String Key="OpenLogButton" Value="Открыть лог" />
-  <String Key="ManualInstallUpdateButton" Value="Из .zip" />
+    <String Key="PlayButton" Value="Играть" />
+    <String Key="OptionsButton" Value="Опции" />
+    <String Key="CheckUpdatesButton" Value="Обновления" />
+    <String Key="InstallUpdatesButton" Value="Установить" />
+    <String Key="OpenLogButton" Value="Открыть лог" />
+    <String Key="ManualInstallUpdateButton" Value="Из .zip" />
+    <String Key="AddonsButton" Value="Аддоны" />
 
-	<String Key="Version" Value="Версия" />
-	<String Key="NotAvailable" Value="Н/Д" />
+    <String Key="Version" Value="Версия" />
+    <String Key="NotAvailable" Value="Н/Д" />
 
-	<String Key="OptionsWindow" Value="Опции" />
-	<String Key="InstallationOptions" Value="Опции HSK:" />
-	<String Key="RimWorldExecutablePath" Value="Исполняемый файл RimWorld:" />
-  <String Key="RimWorldModsConfigPath" Value="Файл ModsConfig.xml:" />
-  <String Key="StorageDirectoryPath" Value="Хранилище данных лаунчера (минимум 1GB):" />
-	<String Key="OverwriteModsConfig" Value="Перезаписывать ModsConfig.xml" />
-	<String Key="LauncherOptions" Value="Опции лаунчера:" />
-	<String Key="CheckRimWorldVersion" Value="Проверять версию RimWorld" />
-	<String Key="LaunchGameViaSteam" Value="Запускать игру через Steam"/>
-  <String Key="UseProxy" Value="Использовать прокси (если у вас есть проблемы с подключением к GitHub)" />
-	<String Key="CloseLauncherAfterGameStartup" Value="Закрывать лаунчер после запуска игры" />
-	<String Key="CheckUpdatesOnStartup" Value="Проверять обновления HSK при запуске" />
-	<String Key="CheckLauncherUpdatesOnStartup" Value="Проверять обновления лаунчера при запуске" />
-	<String Key="OptionsWarning" Value="HSK может работать неверно!" />
-	<String Key="ClearLatestVersionInfo" Value="Забыть установленную версию" />
-	<String Key="ResetModsConfigs" Value="Сбросить настройки модов" />
-  <String Key="ShowAllBranches" Value="Показать все" />
-	<String Key="DoneButton" Value="Готово" />
+    <String Key="OptionsWindow" Value="Опции" />
+    <String Key="InstallationOptions" Value="Опции HSK:" />
+    <String Key="RimWorldExecutablePath" Value="Исполняемый файл RimWorld:" />
+    <String Key="RimWorldModsConfigPath" Value="Файл ModsConfig.xml:" />
+    <String Key="StorageDirectoryPath" Value="Хранилище данных лаунчера (минимум 1GB):" />
+    <String Key="OverwriteModsConfig" Value="Перезаписывать ModsConfig.xml" />
+    <String Key="LauncherOptions" Value="Опции лаунчера:" />
+    <String Key="CheckRimWorldVersion" Value="Проверять версию RimWorld" />
+    <String Key="LaunchGameViaSteam" Value="Запускать игру через Steam"/>
+    <String Key="UseProxy" Value="Использовать прокси (если у вас есть проблемы с подключением к GitHub)" />
+    <String Key="CloseLauncherAfterGameStartup" Value="Закрывать лаунчер после запуска игры" />
+    <String Key="CheckUpdatesOnStartup" Value="Проверять обновления HSK при запуске" />
+    <String Key="CheckLauncherUpdatesOnStartup" Value="Проверять обновления лаунчера при запуске" />
+    <String Key="OptionsWarning" Value="HSK может работать неверно!" />
+    <String Key="ClearLatestVersionInfo" Value="Забыть установленную версию" />
+    <String Key="ResetModsConfigs" Value="Сбросить настройки модов" />
+    <String Key="ShowAllBranches" Value="Показать все" />
+    <String Key="DoneButton" Value="Готово" />
 
-	<String Key="PostInstallActionsWindow" Value="Действия с modsconfig" />
-	<String Key="ModNameWarning" Value="packageId модов вы можете получить либо из существующего &quot;ModsConfig.xml&quot; файла или из файла &quot;About.xml&quot; находящегося в папке &quot;About&quot; внутри папки с модом. Принудительно включенные моды будут сохранены при очистке папки &quot;Mods&quot; во время обновления." />
-	<String Key="ForceIncludeMods" Value="Принудительно включать моды:" />
-	<String Key="ForceExcludeMods" Value="Принудительно отключать моды:" />
-	<String Key="OneModNamePerLine" Value="Одно имя мода на одну строку" />
-	<String Key="OpenModsDirectory" Value="Открыть папку с модами" />
-	<String Key="PostInstallExecute" Value="Запуск приложения после установки:" />
-	<String Key="PostInstallApplication" Value="Приложение:" />
-	<String Key="PostInstallApplicationArguments" Value="Аргументы:" />
+    <String Key="PostInstallActionsWindow" Value="Действия с modsconfig" />
+    <String Key="ModNameWarning" Value="packageId модов вы можете получить либо из существующего &quot;ModsConfig.xml&quot; файла или из файла &quot;About.xml&quot; находящегося в папке &quot;About&quot; внутри папки с модом. Принудительно включенные моды будут сохранены при очистке папки &quot;Mods&quot; во время обновления." />
+    <String Key="ForceIncludeMods" Value="Принудительно включать моды:" />
+    <String Key="ForceExcludeMods" Value="Принудительно отключать моды:" />
+    <String Key="OneModNamePerLine" Value="Одно имя мода на одну строку" />
+    <String Key="OpenModsDirectory" Value="Открыть папку с модами" />
+    <String Key="PostInstallExecute" Value="Запуск приложения после установки:" />
+    <String Key="PostInstallApplication" Value="Приложение:" />
+    <String Key="PostInstallApplicationArguments" Value="Аргументы:" />
 
-	<String Key="CheckingForUpdatesMessage" Value="Поиск обновлений..." />
-	<String Key="NewVersionAvailableMessage" Value="Доступна новая версия: {0}" />
-	<String Key="YouHaveLatestVersionMessage" Value="У вас последняя версия" />
-	<String Key="PreparingToDownloadMessage" Value="Подготовка к скачиванию..." />
-	<String Key="UpdatesInstalledMessage" Value="Обновления установлены" />
-	<String Key="CheckForUpdatesFailedMessage" Value="Не удалось проверить обновления,\nпопробуйте включить прокси в настройках" />
-	<String Key="UpdateFailedMessage" Value="Обновление не удалось" />
-	<String Key="StartingRimWorldMessage" Value="RimWorld запускается..." />
-	<String Key="CouldNotStartRimWorldMessage" Value="Не удалось запустить RimWorld" />
-	<String Key="RimWorldIsRunningMessage" Value="RimWorld запущен.\n\nЗакройте игру перед тем как устанавливать обновления." />
-	<String Key="RimWorldIsNotSuitableMessage" Value="HSK ({0}) не подходит для вашей установки RimWorld ({1})" />
-  <String Key="UseProxyMessage" Value="Пожалуйста, используйте прокси только если у вас есть проблемы с подключением к GitHub и лаунчер не может установить соединение.\n\nПерезапустите лаучер чтобы применить изменения." />
-  <String Key="ModsConfigMissingMessage" Value="ModsConfig.xml не найден, лаунчер может работать некорректно.\n\nЗапустите Rimworld чтобы сгенерировать необходимые файлы и укажите правильный путь в опциях лаунчера.\n\nПродолжить?" />
-  <String Key="ModsCleanupWarningMessage" Value="Во время установки все моды в папке &quot;Mods&quot; будут удалены если их нет в списке исключений. Список исключений можно изменить в настройках лаунчера.\n\nПродолжить установку?" />
+    <String Key="CheckingForUpdatesMessage" Value="Поиск обновлений..." />
+    <String Key="NewVersionAvailableMessage" Value="Доступна новая версия: {0}" />
+    <String Key="YouHaveLatestVersionMessage" Value="У вас последняя версия" />
+    <String Key="PreparingToDownloadMessage" Value="Подготовка к скачиванию..." />
+    <String Key="UpdatesInstalledMessage" Value="Обновления установлены" />
+    <String Key="CheckForUpdatesFailedMessage" Value="Не удалось проверить обновления,\nпопробуйте включить прокси в настройках" />
+    <String Key="UpdateFailedMessage" Value="Обновление не удалось" />
+    <String Key="StartingRimWorldMessage" Value="RimWorld запускается..." />
+    <String Key="CouldNotStartRimWorldMessage" Value="Не удалось запустить RimWorld" />
+    <String Key="RimWorldIsRunningMessage" Value="RimWorld запущен.\n\nЗакройте игру перед тем как устанавливать обновления." />
+    <String Key="RimWorldIsNotSuitableMessage" Value="HSK ({0}) не подходит для вашей установки RimWorld ({1})" />
+    <String Key="UseProxyMessage" Value="Пожалуйста, используйте прокси только если у вас есть проблемы с подключением к GitHub и лаунчер не может установить соединение.\n\nПерезапустите лаучер чтобы применить изменения." />
+    <String Key="ModsConfigMissingMessage" Value="ModsConfig.xml не найден, лаунчер может работать некорректно.\n\nЗапустите Rimworld чтобы сгенерировать необходимые файлы и укажите правильный путь в опциях лаунчера.\n\nПродолжить?" />
+    <String Key="ModsCleanupWarningMessage" Value="Во время установки все моды в папке &quot;Mods&quot; будут удалены если их нет в списке исключений. Список исключений можно изменить в настройках лаунчера.\n\nПродолжить установку?" />
 
-  <String Key="DownloadingHardCoreSKBytesMessage" Value="Загрузка Hardcore SK... ({0})" />
-	<String Key="DownloadingHardCoreSKPercentsMessage" Value="Загрузка Hardcore SK... ({0}%)" />
-	<String Key="InstallingHardCoreSKMessage" Value="Установка Hardcore SK... ({0}%)" />
+    <String Key="DownloadingHardCoreSKBytesMessage" Value="Загрузка Hardcore SK... ({0})" />
+    <String Key="DownloadingHardCoreSKPercentsMessage" Value="Загрузка Hardcore SK... ({0}%)" />
+    <String Key="InstallingHardCoreSKMessage" Value="Установка Hardcore SK... ({0}%)" />
 
-	<String Key="DetectedAlreadyDownloadedVersionMessage" Value="Обнаружена уже скачанная версия. Вы хотите установить её или перекачать, а затем установить?\n\nДа – установить уже скачанную версию.\nНет – скачать и установить."/>
-	<String Key="ModsConfigsResetMessage" Value="Настройки модов сброшены." />
-  <String Key="LauncherUpdateAvailableMessage" Value="Доступно обновление лаунчера. Обновить?" />
+    <String Key="DetectedAlreadyDownloadedVersionMessage" Value="Обнаружена уже скачанная версия. Вы хотите установить её или перекачать, а затем установить?\n\nДа – установить уже скачанную версию.\nНет – скачать и установить."/>
+    <String Key="ModsConfigsResetMessage" Value="Настройки модов сброшены." />
+    <String Key="LauncherUpdateAvailableMessage" Value="Доступно обновление лаунчера. Обновить?" />
+
+    <String Key="AddonsWindow" Value="Аддоны" />
+    <String Key="DeployAddonsButton" Value="Применить" />
+    <String Key="RefreshAddonsButton" Value="Обновить" />
+    <String Key="DeleteAddonButton" Value="Удалить" />
+    <String Key="OpenAddonLinkButton" Value="Ссылка" />
+    <String Key="DownloadAddonButton" Value="Скачать" />
+    <String Key="UpdateAddonButton" Value="Обновить" />
+    <String Key="AddonTableName" Value="Название" />
+    <String Key="AddonTableAuthor" Value="Автор" />
+    <String Key="AddonTableVersion" Value="Версия" />
+    <String Key="AddonTableStatus" Value="Статус" />
+    <String Key="AddonStatusInstalled" Value="Установлен" />
+    <String Key="AddonStatusUpdate" Value="Обновление" />
+    <String Key="AddonStatusLocal" Value="Локальный" />
+    <String Key="AddonLatestVersion" Value="Последняя версия: " />
+    <String Key="AddonCurrentVersion" Value="Текущая версия: " />
+    <String Key="AddonRimworldVersions" Value="Версии Rimworld: " />
+    <String Key="AddonsTableStatusLoading" Value="Загрузка списка модов..." />
+    <String Key="AddonsTableStatusComplete" Value="Загрузка завершена. Найдено {0} аддонов." />
+    <String Key="AdminRightsRequired" Value="Для работы менеджера аддонов требуются права администратора. Перезапустить приложение с правами администратора?" />
 
 </Localization>

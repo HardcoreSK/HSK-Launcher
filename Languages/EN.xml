@@ -14,6 +14,7 @@
 	<String Key="InstallUpdatesButton" Value="Install Updates" />
 	<String Key="OpenLogButton" Value="Open log" />
 	<String Key="ManualInstallUpdateButton" Value="From .zip" />
+	<String Key="AddonsButton" Value="Addons" />
 
 	<String Key="Version" Value="Version" />
 	<String Key="NotAvailable" Value="N/A" />
@@ -27,7 +28,7 @@
 	<String Key="LauncherOptions" Value="Launcher options:" />
 	<String Key="CheckRimWorldVersion" Value="Check RimWorld version" />
 	<String Key="LaunchGameViaSteam" Value="Launch game via Steam" />
-  <String Key="UseProxy" Value="Use proxy (if you have troubles accessing GitHub)" />
+    <String Key="UseProxy" Value="Use proxy (if you have troubles accessing GitHub)" />
 	<String Key="CloseLauncherAfterGameStartup" Value="Close launcher after game startup" />
 	<String Key="CheckUpdatesOnStartup" Value="Check for HSK updates on startup" />
 	<String Key="CheckLauncherUpdatesOnStartup" Value="Check for launcher updates on startup" />
@@ -70,4 +71,25 @@
 	<String Key="ModsConfigsResetMessage" Value="Mods configuration has been reset." />
 	<String Key="LauncherUpdateAvailableMessage" Value="Launcher update available. Download?" />
 
+	<String Key="AddonsWindow" Value="Addons" />
+    <String Key="DeployAddonsButton" Value="Deploy" />
+	<String Key="RefreshAddonsButton" Value="Refresh" />
+	<String Key="DeleteAddonButton" Value="Delete" />
+	<String Key="OpenAddonLinkButton" Value="Link" />
+	<String Key="DownloadAddonButton" Value="Download" />
+    <String Key="UpdateAddonButton" Value="Update" />
+    <String Key="AddonTableName" Value="Name" />
+    <String Key="AddonTableAuthor" Value="Author" />
+    <String Key="AddonTableVersion" Value="Version" />
+    <String Key="AddonTableStatus" Value="Status" />
+    <String Key="AddonStatusInstalled" Value="Installed" />
+    <String Key="AddonStatusUpdate" Value="Update" />
+    <String Key="AddonStatusLocal" Value="Local" />
+    <String Key="AddonLatestVersion" Value="Latest version: " />
+    <String Key="AddonCurrentVersion" Value="Current version: " />
+    <String Key="AddonRimworldVersions" Value="Rimworld versions: " />
+    <String Key="AddonsTableStatusLoading" Value="Loading list of mods..." />
+    <String Key="AddonsTableStatusComplete" Value="Loading completed. {0} addons found." />
+    <String Key="AdminRightsRequired" Value="Addons manager requires admin privileges. Do you want to restart as admin?" />
+    
 </Localization>
