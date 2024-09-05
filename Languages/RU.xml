@@ -24,7 +24,7 @@
     <String Key="RimWorldExecutablePath" Value="Исполняемый файл RimWorld:" />
     <String Key="RimWorldModsConfigPath" Value="Файл ModsConfig.xml:" />
     <String Key="StorageDirectoryPath" Value="Хранилище данных лаунчера (минимум 1GB):" />
-    <String Key="OverwriteModsConfig" Value="Перезаписывать ModsConfig.xml" />
+    <String Key="OverwriteModsConfig" Value="Перезаписывать настройки модов" />
     <String Key="LauncherOptions" Value="Опции лаунчера:" />
     <String Key="CheckRimWorldVersion" Value="Проверять версию RimWorld" />
     <String Key="LaunchGameViaSteam" Value="Запускать игру через Steam"/>
