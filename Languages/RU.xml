@@ -91,5 +91,10 @@
     <String Key="AddonsTableStatusLoading" Value="Загрузка списка модов..." />
     <String Key="AddonsTableStatusComplete" Value="Загрузка завершена. Найдено {0} аддонов." />
     <String Key="AdminRightsRequired" Value="Для работы менеджера аддонов требуются права администратора. Перезапустить приложение с правами администратора?" />
+    <String Key="DeployAddonsMessage" Value="Аддоны применены" />
+    <String Key="DeployAddonsFailedMessage" Value="Ошибка при создании ссылки на &quot;{0}&quot;:\n{1}" />
+    <String Key="AddonsUpdatedMessage" Value="Все аддоны обновлены" />
+    <String Key="AnomalyWarningMessage" Value="ДЛС Anomaly не совместимо с текущей версией Rimworld и может привести к чёрному экрану при запуске. Если вы согласитесь удалить папку с ДЛС, то при обновлении до 1.5 вам будет необходимо заново включить ДЛС в библиотеке Steam. Удалить папку ДЛС Anomaly?" />
+
 
 </Localization>
