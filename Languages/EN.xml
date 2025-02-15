@@ -73,11 +73,15 @@
 
 	<String Key="AddonsWindow" Value="Addons" />
     <String Key="DeployAddonsButton" Value="Deploy" />
+    <String Key="DeployAddonsButtonToolTip" Value="Deploy mods by creating links to their location in launcher data folder" />
 	<String Key="RefreshAddonsButton" Value="Refresh" />
 	<String Key="DeleteAddonButton" Value="Delete" />
 	<String Key="OpenAddonLinkButton" Value="Link" />
 	<String Key="DownloadAddonButton" Value="Download" />
     <String Key="UpdateAddonButton" Value="Update" />
+    <String Key="AddLocalAddonButton" Value="Add Local" />
+    <String Key="AddLocalAddonButtonToolTip" Value="Add mod from an archive to the manager" />
+    <String Key="UpdateAllAddonsButton" Value="Update All" />
     <String Key="AddonTableName" Value="Name" />
     <String Key="AddonTableAuthor" Value="Author" />
     <String Key="AddonTableVersion" Value="Version" />
@@ -94,6 +98,7 @@
     <String Key="DeployAddonsMessage" Value="Deployment finished" />
     <String Key="DeployAddonsFailedMessage" Value="Failed to deploy &quot;{0}&quot; with exception:\n{1}" />
     <String Key="AddonsUpdatedMessage" Value="All addons are updated" />
+    <String Key="DetectedDuplicateModMessage" Value="&quot;{0}&quot;\n\nMod with the same packageId already exists in the mod folder" />
     <String Key="AnomalyWarningMessage" Value="Anomaly DLC is not compatible with this version of Rimworld and can cause black screen on launch. If you agreee to delete the DLC folder you may need to reanable it in the Steam library after updating to 1.5. Delete Anomaly folder?" />
     
 </Localization>
