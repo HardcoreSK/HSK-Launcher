@@ -21,6 +21,7 @@
 
     <String Key="OptionsWindow" Value="Опции" />
     <String Key="InstallationOptions" Value="Опции HSK:" />
+    <String Key="HSKBranchListLabel" Value="Ветка Hardcore SK:" />
     <String Key="RimWorldExecutablePath" Value="Исполняемый файл RimWorld:" />
     <String Key="RimWorldModsConfigPath" Value="Файл ModsConfig.xml:" />
     <String Key="StorageDirectoryPath" Value="Хранилище данных лаунчера (минимум 1GB):" />
@@ -58,7 +59,7 @@
     <String Key="StartingRimWorldMessage" Value="RimWorld запускается..." />
     <String Key="CouldNotStartRimWorldMessage" Value="Не удалось запустить RimWorld" />
     <String Key="RimWorldIsRunningMessage" Value="RimWorld запущен.\n\nЗакройте игру перед тем как устанавливать обновления." />
-    <String Key="RimWorldIsNotSuitableMessage" Value="HSK ({0}) не подходит для вашей установки RimWorld ({1})" />
+    <String Key="RimWorldIsNotSuitableMessage" Value="Выбранная ветка HSK ({0}) не подходит для RimWorld ({1}). Ветку можно изменить в опциях." />
     <String Key="UseProxyMessage" Value="Пожалуйста, используйте прокси только если у вас есть проблемы с подключением к GitHub и лаунчер не может установить соединение.\n\nПерезапустите лаучер чтобы применить изменения." />
     <String Key="ModsConfigMissingMessage" Value="ModsConfig.xml не найден, лаунчер может работать некорректно.\n\nЗапустите Rimworld чтобы сгенерировать необходимые файлы и укажите правильный путь в опциях лаунчера.\n\nПродолжить?" />
     <String Key="ModsCleanupWarningMessage" Value="Во время установки все моды в папке &quot;Mods&quot; будут удалены если их нет в списке исключений. Список исключений можно изменить в настройках лаунчера.\n\nПродолжить установку?" />

@@ -22,6 +22,7 @@
 	<String Key="OptionsWindow" Value="Options" />
 	<String Key="InstallationOptions" Value="HSK options:" />
 	<String Key="RimWorldExecutablePath" Value="RimWorld executable location:" />
+	<String Key="HSKBranchListLabel" Value="Hardcore SK branch:" />
 	<String Key="RimWorldModsConfigPath" Value="RimWorld ModsConfig.xml location:" />
 	<String Key="StorageDirectoryPath" Value="Launcher storage location (at least 1GB):" />
 	<String Key="OverwriteModsConfig" Value="Overwrite mods configs" />
@@ -58,7 +59,7 @@
 	<String Key="StartingRimWorldMessage" Value="Starting RimWorld..." />
 	<String Key="CouldNotStartRimWorldMessage" Value="Could not start RimWorld" />
 	<String Key="RimWorldIsRunningMessage" Value="RimWorld is running.\n\nIt should be closed before installing updates." />
-	<String Key="RimWorldIsNotSuitableMessage" Value="HSK ({0}) is not suitable for your RimWorld ({1})" />
+	<String Key="RimWorldIsNotSuitableMessage" Value="Selected HSK branch ({0}) is not suitable for your RimWorld ({1}). Branch can be changed in the options." />
 	<String Key="UseProxyMessage" Value="Please only enable proxy when you have troubles connecting to Github and launcher fails to fetch new updates.\n\Restart the launcher to apply." />
 	<String Key="ModsConfigMissingMessage" Value="ModsConfig.xml not found, launcher may work incorrectly.\n\nLaunch Rimworld once to generate it and provide a correct location in the launcher options.\n\nContinue?" />
 	<String Key="ModsCleanupWarningMessage" Value="During installation all mods in &quot;Mods&quot; folder will be deleted unless they are in an exception list. Exception list can be edited in the launcher options.\n\nProceed with installation?" />
