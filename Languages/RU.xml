@@ -80,6 +80,7 @@
     <String Key="OpenAddonLinkButton" Value="Ссылка" />
     <String Key="DownloadAddonButton" Value="Скачать" />
     <String Key="UpdateAddonButton" Value="Обновить" />
+    <String Key="OpenAddonFolderButton" Value="Папка" />
     <String Key="AddLocalAddonButton" Value="Добавить" />
     <String Key="AddLocalAddonButtonToolTip" Value="Добавить локальный мод из архива" />
     <String Key="UpdateAllAddonsButton" Value="Обновить\nвсе" />

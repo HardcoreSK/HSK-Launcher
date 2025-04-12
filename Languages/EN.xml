@@ -80,6 +80,7 @@
 	<String Key="OpenAddonLinkButton" Value="Link" />
 	<String Key="DownloadAddonButton" Value="Download" />
     <String Key="UpdateAddonButton" Value="Update" />
+    <String Key="OpenAddonFolderButton" Value="Folder" />
     <String Key="AddLocalAddonButton" Value="Add Local" />
     <String Key="AddLocalAddonButtonToolTip" Value="Add mod from an archive to the manager" />
     <String Key="UpdateAllAddonsButton" Value="Update All" />
