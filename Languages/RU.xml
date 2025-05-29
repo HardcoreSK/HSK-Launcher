@@ -103,4 +103,5 @@
     <String Key="DetectedDuplicateModMessage" Value="&quot;{0}&quot;\n\nМод с таким packageId уже существует в папке с модами" />
     <String Key="AnomalyWarningMessage" Value="ДЛС Anomaly не совместимо с текущей версией Rimworld и может привести к чёрному экрану при запуске. Если вы согласитесь удалить папку с ДЛС, то при обновлении до 1.5 вам будет необходимо заново включить ДЛС в библиотеке Steam. Удалить папку ДЛС Anomaly?" />
 
+
 </Localization>
