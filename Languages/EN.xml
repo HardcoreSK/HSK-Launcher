@@ -94,6 +94,7 @@
     <String Key="AddonLatestVersion" Value="Latest version: " />
     <String Key="AddonCurrentVersion" Value="Current version: " />
     <String Key="AddonRimworldVersions" Value="Rimworld versions: " />
+    <String Key="AddonDependencies" Value="Requirements: " />
     <String Key="AddonsTableStatusLoading" Value="Loading list of mods..." />
     <String Key="AddonsTableStatusComplete" Value="Loading completed. {0} addons found." />
     <String Key="AdminRightsRequired" Value="Addons manager requires admin privileges. Do you want to restart as admin?" />

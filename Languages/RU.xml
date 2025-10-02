@@ -94,6 +94,7 @@
     <String Key="AddonLatestVersion" Value="Последняя версия: " />
     <String Key="AddonCurrentVersion" Value="Текущая версия: " />
     <String Key="AddonRimworldVersions" Value="Версии Rimworld: " />
+    <String Key="AddonDependencies" Value="Зависимости: " />
     <String Key="AddonsTableStatusLoading" Value="Загрузка списка модов..." />
     <String Key="AddonsTableStatusComplete" Value="Загрузка завершена. Найдено {0} аддонов." />
     <String Key="AdminRightsRequired" Value="Для работы менеджера аддонов требуются права администратора. Перезапустить приложение с правами администратора?" />
