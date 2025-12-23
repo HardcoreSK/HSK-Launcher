@@ -97,7 +97,7 @@
     <String Key="AddonDependencies" Value="Зависимости: " />
     <String Key="AddonsTableStatusLoading" Value="Загрузка списка модов..." />
     <String Key="AddonsTableStatusComplete" Value="Загрузка завершена. Найдено {0} аддонов." />
-    <String Key="AdminRightsRequired" Value="Для работы менеджера аддонов требуются права администратора. Перезапустить приложение с правами администратора?" />
+    <String Key="AdminRightsRequired" Value="Для продолжения требуются права администратора. Перезапустить приложение с правами администратора?" />
     <String Key="DeployAddonsMessage" Value="Аддоны применены" />
     <String Key="DeployAddonsFailedMessage" Value="Ошибка при создании ссылки на &quot;{0}&quot;:\n{1}" />
     <String Key="AddonsUpdatedMessage" Value="Все аддоны обновлены" />

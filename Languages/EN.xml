@@ -97,7 +97,7 @@
     <String Key="AddonDependencies" Value="Requirements: " />
     <String Key="AddonsTableStatusLoading" Value="Loading list of mods..." />
     <String Key="AddonsTableStatusComplete" Value="Loading completed. {0} addons found." />
-    <String Key="AdminRightsRequired" Value="Addons manager requires admin privileges. Do you want to restart as admin?" />
+    <String Key="AdminRightsRequired" Value="Admin privileges required. Do you want to restart as admin?" />
     <String Key="DeployAddonsMessage" Value="Deployment finished" />
     <String Key="DeployAddonsFailedMessage" Value="Failed to deploy &quot;{0}&quot; with exception:\n{1}" />
     <String Key="AddonsUpdatedMessage" Value="All addons are updated" />
