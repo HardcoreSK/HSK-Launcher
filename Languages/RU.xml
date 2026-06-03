@@ -73,6 +73,7 @@
     <String Key="LauncherUpdateAvailableMessage" Value="Доступно обновление лаунчера. Обновить?" />
 
     <String Key="AddonsWindow" Value="Аддоны" />
+  <String Key="AddonTableSearchGhost" Value="Поиск..." />
     <String Key="DeployAddonsButton" Value="Применить" />
     <String Key="DeployAddonsButtonToolTip" Value="Применить скачанные моды, создав ссылки на их папки в папку с игрой" />
     <String Key="RefreshAddonsButton" Value="Обновить\nсписок" />
@@ -87,6 +88,8 @@
     <String Key="AddonTableName" Value="Название" />
     <String Key="AddonTableAuthor" Value="Автор" />
     <String Key="AddonTableVersion" Value="Версия" />
+    <String Key="AddonTableUniqueDownloads" Value="Загрузки" />
+    <String Key="AddonTableLastUpdate" Value="Обновление" />
     <String Key="AddonTableStatus" Value="Статус" />
     <String Key="AddonStatusInstalled" Value="Установлен" />
     <String Key="AddonStatusUpdate" Value="Обновление" />

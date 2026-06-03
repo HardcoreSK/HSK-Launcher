@@ -73,6 +73,7 @@
 	<String Key="LauncherUpdateAvailableMessage" Value="Launcher update available. Download?" />
 
 	<String Key="AddonsWindow" Value="Addons" />
+  <String Key="AddonTableSearchGhost" Value="Search..." />
     <String Key="DeployAddonsButton" Value="Deploy" />
     <String Key="DeployAddonsButtonToolTip" Value="Deploy mods by creating links to their location in launcher data folder" />
 	<String Key="RefreshAddonsButton" Value="Refresh" />
@@ -87,6 +88,8 @@
     <String Key="AddonTableName" Value="Name" />
     <String Key="AddonTableAuthor" Value="Author" />
     <String Key="AddonTableVersion" Value="Version" />
+		<String Key="AddonTableUniqueDownloads" Value="Downloads" />
+		<String Key="AddonTableLastUpdate" Value="Last Update" />
     <String Key="AddonTableStatus" Value="Status" />
     <String Key="AddonStatusInstalled" Value="Installed" />
     <String Key="AddonStatusUpdate" Value="Update" />
