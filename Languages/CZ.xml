@@ -52,7 +52,7 @@
 	<String Key="StartingRimWorldMessage" Value="Spouštím RimWorld..." />
 	<String Key="CouldNotStartRimWorldMessage" Value="Nepodařilo se spustit RimWorld" />
 	<String Key="RimWorldIsRunningMessage" Value="RimWorld je již spuštěn.\n\nPro provední aktualizace musí být aplikace vypnutá." />
-	<String Key="RimWorldIsNotSuitableMessage" Value="Verze módu HSK ({0}) není vhodná pro verzy hry RimWorld ({1})" />
+	<String Key="RimWorldIsNotSuitableMessage" Value="Vybraná větev HSK vyžaduje RimWorld verze {0} nebo novější, ale nižší než {1}. Nainstalovaná verze: {2}." />
 
 	<String Key="DownloadingHardCoreSKBytesMessage" Value="Stahuji Hardcore SK... ({0})" />
 	<String Key="DownloadingHardCoreSKPercentsMessage" Value="Stahuji Hardcore SK... ({0}%)" />
