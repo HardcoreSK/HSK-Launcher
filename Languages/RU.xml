@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Localization Name="Russian" Culture="ru-RU">
     <String Key="DiscordButton" Value="Discord" />
     <String Key="GitHubButton" Value="GitHub" />
@@ -108,4 +108,58 @@
     <String Key="AnomalyWarningMessage" Value="ДЛС Anomaly не совместимо с текущей версией Rimworld и может привести к чёрному экрану при запуске. Если вы согласитесь удалить папку с ДЛС, то при обновлении до 1.5 вам будет необходимо заново включить ДЛС в библиотеке Steam. Удалить папку ДЛС Anomaly?" />
 
 
+    <!-- Mod sorting and XML loading -->
+    <String Key="LoadOrderWindow" Value="Сортировка модов" />
+    <String Key="LoadOrderTableName" Value="Название" />
+    <String Key="ToggleModButton" Value="Вкл/выкл" />
+    <String Key="MoveUpModButton" Value="Вверх" />
+    <String Key="MoveDownModButton" Value="Вниз" />
+    <String Key="SortModsButton" Value="Сортировать" />
+    <String Key="SaveLoadOrderButton" Value="Сохранить порядок" />
+    <String Key="ResetLoadOrderButton" Value="По умолчанию" />
+    <String Key="LoadOrderSourceLocal" Value="Локальный" />
+    <String Key="LoadOrderLoadErrorTitle" Value="Загрузка модов" />
+    <String Key="LoadOrderSortErrorTitle" Value="Сортировка модов" />
+    <String Key="LoadOrderSaveErrorTitle" Value="Сохранение порядка" />
+    <String Key="LoadOrderResetErrorTitle" Value="Сброс порядка" />
+    <String Key="LoadOrderGameLocationMissing" Value="Путь к RimWorld не указан. Выберите исполняемый файл RimWorld в настройках лаунчера и снова откройте сортировку модов." />
+    <String Key="LoadOrderGameFolderMissing" Value="Не найдена необходимая папка игры:\n{0}\n\nПроверьте путь к исполняемому файлу RimWorld в настройках лаунчера и убедитесь, что игра и HSK установлены." />
+    <String Key="LoadOrderIndicatorFile" Value="файл ModIndicator HSK" />
+    <String Key="LoadOrderIndicatorMissingAdvice" Value="HSK Autosort and Mod Assistant отсутствует или повреждён. Проверьте правильность установки HSK." />
+    <String Key="LoadOrderIndicatorAdvice" Value="Установите или восстановите HSK Autosort and Mod Assistant в папке Mods игры и снова откройте сортировку модов." />
+    <String Key="LoadOrderActiveConfigFile" Value="активный ModsConfig.xml" />
+    <String Key="LoadOrderActiveConfigAdvice" Value="Проверьте путь к ModsConfig.xml в настройках лаунчера. Если файла нет, запустите RimWorld, чтобы создать его." />
+    <String Key="LoadOrderSaveConfigInvalid" Value="Не удалось сохранить порядок: в файле нет элемента ModsConfigData/activeMods:\n{0}\n\nВыберите корректный ModsConfig.xml в настройках лаунчера." />
+    <String Key="LoadOrderSaveFailed" Value="Не удалось сохранить порядок в файл:\n{0}\n\nУбедитесь, что файл доступен для записи и не занят другой программой.\n\n{1}" />
+    <String Key="LoadOrderConfigFile" Value="файл порядка загрузки модов" />
+    <String Key="LoadOrderConfigAdvice" Value="Проверьте путь к конфигу в настройках лаунчера. Для сброса восстановите backups/default/ModsConfig.xml в папке хранения лаунчера." />
+    <String Key="LoadOrderConfigInvalid" Value="Не удалось загрузить конфиг: в нём нет элемента ModsConfigData/activeMods:\n{0}\n\nВыберите или восстановите корректный ModsConfig.xml. Текущий порядок загрузки не изменён." />
+    <String Key="LoadOrderModsMissing" Value="В конфиге указаны моды, которые не найдены:\n{0}\n\nКонфиг: {1}\n\nУстановите эти моды или проверьте папки игры и Workshop. Текущий порядок загрузки не изменён." />
+    <String Key="LoadOrderFileLocationMissing" Value="Не указан путь: {0}.\n\n{1}" />
+    <String Key="LoadOrderFileLoadFailed" Value="Не удалось загрузить: {0}.\n\n{1}\n\n{2}" />
+    <String Key="LoadOrderMetadataFailed" Value="Не удалось прочитать About.xml мода в папке:\n{0}\n\nВосстановите или переустановите мод и проверьте права доступа к папке.\n\n{1}" />
+    <String Key="LoadOrderUnknownDlc" Value="Неизвестное DLC" />
+    <String Key="LoadOrderUnknownMod" Value="Неизвестный мод" />
+    <String Key="LoadOrderIndicatorInvalid" Value="Неверный формат файла ModIndicator HSK (ожидается корневой элемент Defs):\n{0}\n\nВосстановите HSK Autosort and Mod Assistant перед автоматической сортировкой." />
+    <String Key="LoadOrderSortCycle" Value="Не удалось отсортировать моды: правила загрузки образуют цикл с участием {0} ({1}).\n\nПроверьте правила loadBefore/loadAfter этого мода и правила ModIndicator HSK или измените порядок вручную. Текущий порядок не изменён." />
+    <String Key="XmlFilePathRequired" Value="Необходимо указать путь к XML-файлу." />
+    <String Key="XmlFileMissing" Value="XML-файл не найден:\n{0}\n\n{1}" />
+    <String Key="XmlFileInvalid" Value="XML-файл содержит некорректный XML:\n{0}\n\n{1}" />
+    <String Key="XmlFileUnreadable" Value="Не удалось прочитать XML-файл:\n{0}\n\n{1}" />
+    <String Key="ModSortButton" Value="Сортировка" />
+    <String Key="LoadOrderTypeCore" Value="Основа игры\n\nСодержимое базовой игры." />
+    <String Key="LoadOrderTypeDefaultFrameworkRequired" Value="Обязательный фреймворк\n\nФреймворк, необходимый для сборки HSK." />
+    <String Key="LoadOrderTypeCompatibleFramework" Value="Совместимый фреймворк\n\nСторонний фреймворк, проверенный на совместимость с HSK." />
+    <String Key="LoadOrderTypeDefaultRequired" Value="Обязательный мод HSK\n\nВходит в сборку HSK и необходим для работы игры." />
+    <String Key="LoadOrderTypeDefaultOptional" Value="Необязательный мод HSK\n\nВходит в стандартную сборку HSK, но не обязателен." />
+    <String Key="LoadOrderTypeDefaultOptionalTesting" Value="Необязательный мод HSK (тестирование)\n\nВходит в сборку HSK, не обязателен и находится на тестировании." />
+    <String Key="LoadOrderTypeNativeAddon" Value="Дополнение для HSK\n\nСторонний мод, созданный специально для HSK." />
+    <String Key="LoadOrderTypeConversionAddon" Value="Адаптированное дополнение\n\nСуществующий мод, адаптированный для работы с HSK." />
+    <String Key="LoadOrderTypeWorkshopModFullyCompatible" Value="Мод Workshop — полностью совместим\n\nПроверен и полностью совместим с HSK." />
+    <String Key="LoadOrderTypeWorkshopModCompatible" Value="Мод Workshop — частично совместим\n\nДля работы с HSK требует доработки, балансировки или адаптации." />
+    <String Key="LoadOrderTypeWorkshopModIncompatible" Value="Мод Workshop — несовместим\n\nПроверен: использование с HSK приводит к поломке игры." />
+    <String Key="LoadOrderTypeUnknownCompatibility" Value="Совместимость неизвестна\n\nСовместимость с HSK неизвестна. Категория по умолчанию для модов без классификации." />
+    <String Key="LoadOrderTypePatch" Value="Патч\n\nОдин патч или небольшой набор патчей." />
+    <String Key="LoadOrderTypePatchCollection" Value="Сборник патчей\n\nБольшая коллекция патчей." />
+    <String Key="LoadOrderTypeEndMod" Value="Загружать последними\n\nЭти моды должны находиться в конце порядка загрузки. Не размещайте другие моды ниже них." />
 </Localization>

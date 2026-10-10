@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Localization Name="English" Culture="en-US">
 	<String Key="DiscordButton" Value="DISCORD" />
 	<String Key="GitHubButton" Value="GITHUB" />
@@ -107,4 +107,58 @@
     <String Key="DetectedDuplicateModMessage" Value="&quot;{0}&quot;\n\nMod with the same packageId already exists in the mod folder" />
     <String Key="AnomalyWarningMessage" Value="Anomaly DLC is not compatible with this version of Rimworld and can cause black screen on launch. If you agreee to delete the DLC folder you may need to reanable it in the Steam library after updating to 1.5. Delete Anomaly folder?" />
     
+    <!-- Mod sorting and XML loading -->
+    <String Key="LoadOrderWindow" Value="Mod sorting" />
+    <String Key="LoadOrderTableName" Value="Name" />
+    <String Key="ToggleModButton" Value="Toggle" />
+    <String Key="MoveUpModButton" Value="Up" />
+    <String Key="MoveDownModButton" Value="Down" />
+    <String Key="SortModsButton" Value="Sort" />
+    <String Key="SaveLoadOrderButton" Value="Save order" />
+    <String Key="ResetLoadOrderButton" Value="Reset to default" />
+    <String Key="LoadOrderSourceLocal" Value="Local" />
+    <String Key="LoadOrderLoadErrorTitle" Value="Load mods" />
+    <String Key="LoadOrderSortErrorTitle" Value="Sort mods" />
+    <String Key="LoadOrderSaveErrorTitle" Value="Save load order" />
+    <String Key="LoadOrderResetErrorTitle" Value="Reset load order" />
+    <String Key="LoadOrderGameLocationMissing" Value="RimWorld&apos;s location is not configured. Select the RimWorld executable in launcher Options, then reopen Load order." />
+    <String Key="LoadOrderGameFolderMissing" Value="The required game folder was not found:\n{0}\n\nCheck the RimWorld executable location in launcher Options and that the game and HSK are installed." />
+    <String Key="LoadOrderIndicatorFile" Value="HSK ModIndicator file" />
+    <String Key="LoadOrderIndicatorMissingAdvice" Value="HSK Autosort and Mod Assistant is missing or corrupted. Is HSK installed properly?" />
+    <String Key="LoadOrderIndicatorAdvice" Value="Install or repair HSK Autosort and Mod Assistant in the game&apos;s Mods folder, then reopen Load order." />
+    <String Key="LoadOrderActiveConfigFile" Value="active ModsConfig.xml" />
+    <String Key="LoadOrderActiveConfigAdvice" Value="Check the ModsConfig.xml location in launcher Options. If the file is missing, run RimWorld once to create it." />
+    <String Key="LoadOrderSaveConfigInvalid" Value="Cannot save load order: this file has no ModsConfigData/activeMods element:\n{0}\n\nSelect a valid ModsConfig.xml in launcher Options." />
+    <String Key="LoadOrderSaveFailed" Value="Cannot save load order to:\n{0}\n\nCheck that the file is writable and not locked by another program.\n\n{1}" />
+    <String Key="LoadOrderConfigFile" Value="mod load-order file" />
+    <String Key="LoadOrderConfigAdvice" Value="Check the config location in launcher Options. For Reset to default, restore backups/default/ModsConfig.xml in the launcher storage folder." />
+    <String Key="LoadOrderConfigInvalid" Value="Cannot load this config: it has no ModsConfigData/activeMods element:\n{0}\n\nSelect or restore a valid ModsConfig.xml. The current load order has not been changed." />
+    <String Key="LoadOrderModsMissing" Value="The load-order file references mods that were not found:\n{0}\n\nConfig: {1}\n\nInstall these mods or check the configured game and Workshop folders. The current load order has not been changed." />
+    <String Key="LoadOrderFileLocationMissing" Value="The location of the {0} is not configured.\n\n{1}" />
+    <String Key="LoadOrderFileLoadFailed" Value="Cannot load the {0}.\n\n{1}\n\n{2}" />
+    <String Key="LoadOrderMetadataFailed" Value="Cannot read About.xml for the mod in:\n{0}\n\nRepair or reinstall this mod and check folder permissions.\n\n{1}" />
+    <String Key="LoadOrderUnknownDlc" Value="Unknown DLC" />
+    <String Key="LoadOrderUnknownMod" Value="Unknown Mod" />
+    <String Key="LoadOrderIndicatorInvalid" Value="The HSK ModIndicator file has an unexpected format (expected a Defs root):\n{0}\n\nRepair HSK Autosort and Mod Assistant before using automatic sorting." />
+    <String Key="LoadOrderSortCycle" Value="Cannot sort mods because their load-order rules form a cycle involving {0} ({1}).\n\nReview this mod&apos;s loadBefore/loadAfter rules and the HSK ModIndicator rules, or adjust the load order manually. The current order has not been changed." />
+    <String Key="XmlFilePathRequired" Value="An XML file path is required." />
+    <String Key="XmlFileMissing" Value="The XML file was not found:\n{0}\n\n{1}" />
+    <String Key="XmlFileInvalid" Value="The XML file contains invalid XML:\n{0}\n\n{1}" />
+    <String Key="XmlFileUnreadable" Value="The XML file could not be read:\n{0}\n\n{1}" />
+    <String Key="ModSortButton" Value="Mod sorting" />
+    <String Key="LoadOrderTypeCore" Value="Core\n\nVanilla game content." />
+    <String Key="LoadOrderTypeDefaultFrameworkRequired" Value="Required framework\n\nA framework essential for the HSK modpack." />
+    <String Key="LoadOrderTypeCompatibleFramework" Value="Compatible framework\n\nA third-party framework tested for compatibility with HSK." />
+    <String Key="LoadOrderTypeDefaultRequired" Value="Required HSK mod\n\nIncluded in HSK and critical to the game." />
+    <String Key="LoadOrderTypeDefaultOptional" Value="Optional HSK mod\n\nIncluded in the default HSK modpack, but optional." />
+    <String Key="LoadOrderTypeDefaultOptionalTesting" Value="Optional HSK mod (in testing)\n\nIncluded in HSK, optional, and currently being tested." />
+    <String Key="LoadOrderTypeNativeAddon" Value="Native HSK addon\n\nA third-party mod made specifically for HSK." />
+    <String Key="LoadOrderTypeConversionAddon" Value="Converted HSK addon\n\nAn existing mod adapted to work with HSK." />
+    <String Key="LoadOrderTypeWorkshopModFullyCompatible" Value="Workshop mod — fully compatible\n\nTested and fully compatible with HSK." />
+    <String Key="LoadOrderTypeWorkshopModCompatible" Value="Workshop mod — partially compatible\n\nRequires modifications, balancing, or conversion to work with HSK." />
+    <String Key="LoadOrderTypeWorkshopModIncompatible" Value="Workshop mod — incompatible\n\nTested and known to break the game when used with HSK." />
+    <String Key="LoadOrderTypeUnknownCompatibility" Value="Unknown compatibility\n\nCompatibility with HSK is unknown. This is the default for unclassified mods." />
+    <String Key="LoadOrderTypePatch" Value="Patch\n\nA single patch or a small set of patches." />
+    <String Key="LoadOrderTypePatchCollection" Value="Patch collection\n\nA large collection of patches." />
+    <String Key="LoadOrderTypeEndMod" Value="Load last\n\nThese mods belong at the end of the load order. Do not place other mods below them." />
 </Localization>

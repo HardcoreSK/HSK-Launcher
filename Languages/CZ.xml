@@ -61,4 +61,58 @@
 	<String Key="DetectedAlreadyDownloadedVersionMessage" Value="Detekována stažená verze módu HSK. Přejete si ji nainstalovat nebo stáhnout znovu a nainstalovat?\n\nAno – instalovat staženou verzi.\nNe – stáhnou verzi znovu a nainstalovat."/>
 	<String Key="ModsConfigsDeletedMessage" Value="Konfigurace módu byla vymazána." />
 
+    <!-- Mod sorting and XML loading -->
+    <String Key="LoadOrderWindow" Value="Řazení modů" />
+    <String Key="LoadOrderTableName" Value="Název" />
+    <String Key="ToggleModButton" Value="Zap/vyp" />
+    <String Key="MoveUpModButton" Value="Nahoru" />
+    <String Key="MoveDownModButton" Value="Dolů" />
+    <String Key="SortModsButton" Value="Seřadit" />
+    <String Key="SaveLoadOrderButton" Value="Uložit pořadí" />
+    <String Key="ResetLoadOrderButton" Value="Obnovit výchozí" />
+    <String Key="LoadOrderSourceLocal" Value="Místní" />
+    <String Key="LoadOrderLoadErrorTitle" Value="Načtení modů" />
+    <String Key="LoadOrderSortErrorTitle" Value="Řazení modů" />
+    <String Key="LoadOrderSaveErrorTitle" Value="Uložení pořadí" />
+    <String Key="LoadOrderResetErrorTitle" Value="Obnovení pořadí" />
+    <String Key="LoadOrderGameLocationMissing" Value="Umístění RimWorld není nastaveno. Vyberte spustitelný soubor RimWorld v nastavení spouštěče a znovu otevřete řazení modů." />
+    <String Key="LoadOrderGameFolderMissing" Value="Požadovaná složka hry nebyla nalezena:\n{0}\n\nZkontrolujte umístění spustitelného souboru RimWorld v nastavení spouštěče a instalaci hry a HSK." />
+    <String Key="LoadOrderIndicatorFile" Value="soubor ModIndicator HSK" />
+    <String Key="LoadOrderIndicatorMissingAdvice" Value="HSK Autosort and Mod Assistant chybí nebo je poškozen. Zkontrolujte správnost instalace HSK." />
+    <String Key="LoadOrderIndicatorAdvice" Value="Nainstalujte nebo opravte HSK Autosort and Mod Assistant ve složce Mods hry a znovu otevřete řazení modů." />
+    <String Key="LoadOrderActiveConfigFile" Value="aktivní ModsConfig.xml" />
+    <String Key="LoadOrderActiveConfigAdvice" Value="Zkontrolujte umístění ModsConfig.xml v nastavení spouštěče. Pokud soubor chybí, spusťte RimWorld, aby jej vytvořil." />
+    <String Key="LoadOrderSaveConfigInvalid" Value="Pořadí nelze uložit: soubor neobsahuje prvek ModsConfigData/activeMods:\n{0}\n\nVyberte platný ModsConfig.xml v nastavení spouštěče." />
+    <String Key="LoadOrderSaveFailed" Value="Pořadí nelze uložit do souboru:\n{0}\n\nZkontrolujte, zda lze do souboru zapisovat a zda jej nezamyká jiný program.\n\n{1}" />
+    <String Key="LoadOrderConfigFile" Value="soubor pořadí načítání modů" />
+    <String Key="LoadOrderConfigAdvice" Value="Zkontrolujte umístění konfigurace v nastavení spouštěče. Pro obnovení výchozího pořadí obnovte backups/default/ModsConfig.xml v datové složce spouštěče." />
+    <String Key="LoadOrderConfigInvalid" Value="Konfiguraci nelze načíst: neobsahuje prvek ModsConfigData/activeMods:\n{0}\n\nVyberte nebo obnovte platný ModsConfig.xml. Aktuální pořadí nebylo změněno." />
+    <String Key="LoadOrderModsMissing" Value="Soubor pořadí odkazuje na nenalezené mody:\n{0}\n\nKonfigurace: {1}\n\nNainstalujte tyto mody nebo zkontrolujte složky hry a Workshopu. Aktuální pořadí nebylo změněno." />
+    <String Key="LoadOrderFileLocationMissing" Value="Není nastaveno umístění: {0}.\n\n{1}" />
+    <String Key="LoadOrderFileLoadFailed" Value="Nelze načíst: {0}.\n\n{1}\n\n{2}" />
+    <String Key="LoadOrderMetadataFailed" Value="Nelze přečíst About.xml modu ve složce:\n{0}\n\nOpravte nebo přeinstalujte mod a zkontrolujte oprávnění ke složce.\n\n{1}" />
+    <String Key="LoadOrderUnknownDlc" Value="Neznámé DLC" />
+    <String Key="LoadOrderUnknownMod" Value="Neznámý mod" />
+    <String Key="LoadOrderIndicatorInvalid" Value="Soubor ModIndicator HSK má neočekávaný formát (očekáván kořenový prvek Defs):\n{0}\n\nPřed automatickým řazením opravte HSK Autosort and Mod Assistant." />
+    <String Key="LoadOrderSortCycle" Value="Mody nelze seřadit: pravidla načítání tvoří cyklus zahrnující {0} ({1}).\n\nZkontrolujte pravidla loadBefore/loadAfter tohoto modu a pravidla ModIndicator HSK, nebo upravte pořadí ručně. Aktuální pořadí nebylo změněno." />
+    <String Key="XmlFilePathRequired" Value="Je nutné zadat cestu k souboru XML." />
+    <String Key="XmlFileMissing" Value="Soubor XML nebyl nalezen:\n{0}\n\n{1}" />
+    <String Key="XmlFileInvalid" Value="Soubor XML obsahuje neplatné XML:\n{0}\n\n{1}" />
+    <String Key="XmlFileUnreadable" Value="Soubor XML nelze přečíst:\n{0}\n\n{1}" />
+    <String Key="ModSortButton" Value="Řazení modů" />
+    <String Key="LoadOrderTypeCore" Value="Základ hry\n\nObsah základní hry." />
+    <String Key="LoadOrderTypeDefaultFrameworkRequired" Value="Povinný framework\n\nFramework nezbytný pro sestavu HSK." />
+    <String Key="LoadOrderTypeCompatibleFramework" Value="Kompatibilní framework\n\nFramework třetí strany s ověřenou kompatibilitou s HSK." />
+    <String Key="LoadOrderTypeDefaultRequired" Value="Povinný mod HSK\n\nSoučást sestavy HSK nezbytná pro fungování hry." />
+    <String Key="LoadOrderTypeDefaultOptional" Value="Volitelný mod HSK\n\nSoučást výchozí sestavy HSK, ale není povinný." />
+    <String Key="LoadOrderTypeDefaultOptionalTesting" Value="Volitelný mod HSK (testování)\n\nSoučást sestavy HSK, není povinný a právě se testuje." />
+    <String Key="LoadOrderTypeNativeAddon" Value="Doplněk pro HSK\n\nMod třetí strany vytvořený přímo pro HSK." />
+    <String Key="LoadOrderTypeConversionAddon" Value="Upravený doplněk HSK\n\nExistující mod upravený pro fungování s HSK." />
+    <String Key="LoadOrderTypeWorkshopModFullyCompatible" Value="Mod z Workshopu — plně kompatibilní\n\nOtestovaný a plně kompatibilní s HSK." />
+    <String Key="LoadOrderTypeWorkshopModCompatible" Value="Mod z Workshopu — částečně kompatibilní\n\nPro fungování s HSK vyžaduje úpravy, vyvážení nebo přizpůsobení." />
+    <String Key="LoadOrderTypeWorkshopModIncompatible" Value="Mod z Workshopu — nekompatibilní\n\nOtestovaný; při použití s HSK narušuje fungování hry." />
+    <String Key="LoadOrderTypeUnknownCompatibility" Value="Neznámá kompatibilita\n\nKompatibilita s HSK není známá. Výchozí kategorie pro nezařazené mody." />
+    <String Key="LoadOrderTypePatch" Value="Oprava\n\nJedna oprava nebo malá sada oprav." />
+    <String Key="LoadOrderTypePatchCollection" Value="Sada oprav\n\nVelká sada oprav." />
+    <String Key="LoadOrderTypeEndMod" Value="Načíst jako poslední\n\nTyto mody patří na konec pořadí načítání. Neumisťujte pod ně další mody." />
 </Localization>
