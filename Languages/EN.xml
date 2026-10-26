@@ -161,4 +161,5 @@
     <String Key="LoadOrderTypePatch" Value="Patch\n\nA single patch or a small set of patches." />
     <String Key="LoadOrderTypePatchCollection" Value="Patch collection\n\nA large collection of patches." />
     <String Key="LoadOrderTypeEndMod" Value="Load last\n\nThese mods belong at the end of the load order. Do not place other mods below them." />
+    <String Key="ModsConfigsResetValidationFailed" Value="Cannot reset configs: the default configs could not be validated in:\n{0}\n\nInstall or update HSK to recreate them, or check that the files are readable. Your current configs have not been changed.\n\n{1}" />
 </Localization>

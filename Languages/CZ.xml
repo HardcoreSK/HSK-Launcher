@@ -61,6 +61,11 @@
 	<String Key="DetectedAlreadyDownloadedVersionMessage" Value="Detekována stažená verze módu HSK. Přejete si ji nainstalovat nebo stáhnout znovu a nainstalovat?\n\nAno – instalovat staženou verzi.\nNe – stáhnou verzi znovu a nainstalovat."/>
 	<String Key="ModsConfigsDeletedMessage" Value="Konfigurace módu byla vymazána." />
 
+    <!-- Shared addon and mod details -->
+    <String Key="AddonTableAuthor" Value="Autor" />
+    <String Key="AddonRimworldVersions" Value="Verze RimWorldu: " />
+    <String Key="AddonDependencies" Value="Požadované mody: " />
+
     <!-- Mod sorting and XML loading -->
     <String Key="LoadOrderWindow" Value="Řazení modů" />
     <String Key="LoadOrderTableName" Value="Název" />
@@ -115,4 +120,5 @@
     <String Key="LoadOrderTypePatch" Value="Oprava\n\nJedna oprava nebo malá sada oprav." />
     <String Key="LoadOrderTypePatchCollection" Value="Sada oprav\n\nVelká sada oprav." />
     <String Key="LoadOrderTypeEndMod" Value="Načíst jako poslední\n\nTyto mody patří na konec pořadí načítání. Neumisťujte pod ně další mody." />
+    <String Key="ModsConfigsResetValidationFailed" Value="Nastavení nelze obnovit: výchozí nastavení nelze ověřit ve složce:\n{0}\n\nNainstalujte nebo aktualizujte HSK pro jejich obnovení, nebo zkontrolujte, zda lze soubory číst. Vaše aktuální nastavení nebylo změněno.\n\n{1}" />
 </Localization>
